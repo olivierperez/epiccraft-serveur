@@ -13,7 +13,13 @@ wget http://ftb.cursecdn.com/FTB2/modpacks/EPiCCRAFT/1_1_1/EPiCCRAFTServer.zip
 unzip EPiCCRAFTServer.zip
 chmod +x ServerStart.sh
 
-### Creat aliases
-echo 'alias ll="ls -l"' >> .bashrc
-echo 'alias ecstart="screen -d -m /home/admin/minecraft_ram/ServerStart.sh"' >> .bashrc
-echo 'alias ecsave=""' >> .bashrc
+### Create aliases
+echo 'alias ll="ls -l"' >> ~/.bash_aliases
+echo 'alias ecstart="screen -d -m /home/admin/minecraft_ram/ServerStart.sh"' >> ~/.bash_aliases
+echo 'alias ecsave=""' >> ~/.bash_aliases
+
+echo '. ~/.bash_aliases' >> .bashrc
+
+echo 'To start server:'
+echo '. ~/.bash_aliases'
+echo 'ecstart'
