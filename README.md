@@ -7,7 +7,7 @@ Tooling scripts to manage a Epiccraft server.
 ### Install EpicCraft server
 
 ```
-wget -o https://raw.githubusercontent.com/olivierperez/epiccraft-serveur/master/scripts/init-env.sh
+wget https://raw.githubusercontent.com/olivierperez/epiccraft-serveur/master/scripts/init-env.sh
 chmod u+x init-env.sh
 ./init-env.sh
 . ~/bach_aliases
